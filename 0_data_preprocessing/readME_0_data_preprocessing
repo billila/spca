@@ -1,0 +1,13 @@
+the fold "0_data_preprocessing" contains the code to obtain the data used in this benchmark and the preprocessing.
+
+we used two different sources for the dataset:
+
+1. The dataset is available at https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.3.0/1M_neurons.
+In the "prepocessing_python_tenx.py" script we normalize with total UMI count per cell, we filter genes with more than 1 count and select highly-variable genes, we log-transform the data and then scale to unit variance and shift to zero means. Finally, we save the preprocessed object using "adata.write()".
+This data is used to compare PCA compute with TileDB, SparseArray and like a Sparse Matrix, AnnData in Python with scanpy and ScitKlearn.
+
+2. The second database is loaded from TENxBrainData library.
+In the preprocessing_R_tenx.R script we filter the count matrix with the data saved from "prepocessing_python_tenx" script, and then log-normalized the data.
+Finally, we saved the preprocessed object using "saveHDF5SummarizedExperiment". We also held downsample sizes of datasets (sizes 100k,
+500k, 1M) from the preprocessed object described above.
+This preprocessed object is used to compare PCA compute with TileDB, a Large Summarized Experiment object and like a Dense Matrix.
