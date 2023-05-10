@@ -1,0 +1,20 @@
+The fold "1_input_data" contains the code to obtain the input data for the PCA.
+
+M1, M2, M3, M7, and M8 use data from the TENxBrainData library.
+M3, M4 and M5 use data from https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.3.0/1M_neurons.
+
+M1: R code, Large Summarized Experiment object
+
+M2: R code, Dense Matrix in Memory
+
+M3: R code, TileDB matrix
+
+M4: R code, TileDB matrix
+
+M5: R code, Sparse Matrix in Memory
+
+M6: R code, SparseArray object
+
+M7: Python code, hdf5 matrix
+
+M8: Python code, h5 matrix
