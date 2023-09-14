@@ -16,4 +16,4 @@ We also created downsampled datasets (of sizes 100k, 500k, and 1M) to check the 
 * The fold "3_time" contains the code to compute pca and the code to save the computational cost (GB).
 
   
-![](https://github.com/billila/spca/blob/main/0_data_preprocessing/SCHEMA%20POSTER%20(1024%20%C3%97%20540%20px)%20(1024%20%C3%97%20640%20px)-3.pdf)
+![](https://github.com/billila/spca/blob/main/0_data_preprocessing/SCHEMA%20POSTER%20(1024%20%C3%97%20540%20px)%20(1024%20%C3%97%20640%20px)(4).png)
