@@ -17,3 +17,24 @@ We also created downsampled datasets (of sizes 100k, 500k, and 1M) to check the 
 
   
 ![](https://github.com/billila/spca/blob/main/0_data_preprocessing/SCHEMA%20POSTER%20(1024%20%C3%97%20540%20px)%20(1024%20%C3%97%20640%20px)(4).png)
+
+LEGEND:
+* M1 = bioc_hdf5
+* M2 = bioc_dense
+* M3 = TBD
+* M4 = TBD
+* M5 = bioc_sparse
+* M5_deferred = bioc_sparse_deferred 
+* M6 = bioc_sparse_array
+* M6_deferred = bioc_sparse_array_deferred
+* M7 = scanpy_dense
+* M8 = sciktlearn_dense_IPCA
+* M9 = TBD
+* M10 = rapids_dense
+* M11 = scanpy_sparse
+* M12 = sciktlearn_sparse_IPCA
+* M13 = rapids_sparse
+* M14 = rspectra_dense
+* M15 = rspectra_sparse
+* M16 = sciktlearn_dense_exact
+* M17 = sciktlearn_sparse_exact
